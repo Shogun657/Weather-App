@@ -1,0 +1,92 @@
+.container {
+    width: 75vw; /* Use percentage for width */
+    max-width: 607px; /* Set max width if needed */
+    min-width: 100px;
+    height: 90vh; /* Use viewport height for height */
+    margin: auto;
+    margin-top: 1vh; /* Use viewport height for margin */
+    border-radius: 2.5vmin; /* Use viewport min as unit for border-radius */
+    background-image: linear-gradient(180deg, #130754, #3b2f80 100%);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 2.5vmin; /* Use viewport min as unit for gap */
+    padding-top: 7.5vmin; /* Use viewport min as unit for padding */
+}
+
+.top-bar input {
+    display: flex;
+    width: 60%; /* Use percentage for width */
+    height: 10vmin; /* Use viewport min as unit for height */
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 20vmin; /* Use viewport min as unit for border-radius */
+    padding-left: 6.25vmin; /* Use viewport min as unit for padding */
+    color: #626262;
+    font-size: 1.5rem; /* Use viewport max as unit for font-size */
+    font-weight: 400;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin; /* Use viewport min as unit for width */
+    height: 10vmin; /* Use viewport min as unit for height */
+    background: #ebfffc;
+    border-radius: 20vmin; /* Use viewport min as unit for border-radius */
+    cursor: pointer;
+}
+
+.weather-image {
+    margin-top: 3.5vmin; /* Use viewport min as unit for margin */
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temp {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 6vmin; /* Use viewport min as unit for font-size */
+    font-weight: 400;
+}
+
+.weather-location {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3vmin; /* Use viewport min as unit for font-size */
+    font-weight: 400;
+}
+
+.data-container {
+    margin-top: 5vmin; /* Use viewport min as unit for margin */
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5vmin; /* Use viewport min as unit for gap */
+}
+
+.data {
+    font-size: 2.5vmin; /* Use viewport min as unit for font-size */
+    font-weight: 400;
+}
+
+.text {
+    font-size: 1.5vmin; /* Use viewport min as unit for font-size */
+    font-weight: 400;
+}
+
+.icon {
+    margin-top: 1vmin; /* Use viewport min as unit for margin */
+}
